@@ -25,9 +25,9 @@ export default function Home() {
       <Header name="Home" />
 
       <Hero
-        imgUrl="/assets/image.jpeg"
+        imgUrl="/assets/profile.jpg"
         title="Amal"
-        subtitle="I am a student engineer"
+        subtitle="I am a software engineer student"
       />
 
       <Content>
@@ -38,10 +38,10 @@ export default function Home() {
 
          <div>
           <button
-              className="bg-pink-500 px-2 py-1 rounded"
+              className="bg-blue-500 px-2 py-1 rounded"
               onClick={handleClick}
             >
-              Click Here!
+              Click me!!!
             </button>
          </div>
         </div>
