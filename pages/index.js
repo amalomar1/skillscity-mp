@@ -41,7 +41,7 @@ export default function Home() {
               className="bg-pink-500 px-2 py-1 rounded"
               onClick={handleClick}
             >
-              Click me!!!
+              Click Here!
             </button>
          </div>
         </div>
