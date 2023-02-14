@@ -25,9 +25,9 @@ export default function Home() {
       <Header name="Home" />
 
       <Hero
-        imgUrl="/assets/profile.jpg"
-        title="Zahid"
-        subtitle="I am a bootcamp instructor"
+        imgUrl="/assets/image.jpeg"
+        title="Amal"
+        subtitle="I am a student engineer"
       />
 
       <Content>
