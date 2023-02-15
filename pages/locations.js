@@ -3,6 +3,7 @@ import Content from "@/components/shared/content";
 import Footer from "@/components/shared/footer";
 import Header from "@/components/shared/header";
 
+
 export default function LocationsPage() {
     return (
         <div className="w-full">
