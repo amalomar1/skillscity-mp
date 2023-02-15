@@ -66,13 +66,13 @@ export default function Contact() {
                     />
                     <textarea
                         placeholder="Message"
-                        className="bg-gray-200 py-3 px-6 w-full rounded"
+                        className="bg-amber-100 py-3 px-6 w-full rounded"
                         value={message}
                         onChange={handleChangeMessage}
                     />
 
                     <button
-                        className="bg-blue-500 py-3 px-6 w-full rounded text-white"
+                        className="bg-amber-700 py-3 px-6 w-full rounded text-white"
                         onClick={handleSubmit}
                         type="button"
                     >
@@ -80,7 +80,7 @@ export default function Contact() {
                     </button>
 
                     {showSuccess === true ? 
-                        (<p className="text-green-500 w-full">
+                        (<p className="text-amber-600 w-full">
                             Your message was sent!
                         </p>)
                         :
