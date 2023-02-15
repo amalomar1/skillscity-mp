@@ -8,13 +8,13 @@ export default function Hero({ imgUrl, title, subtitle }) {
                 <div className="w-full text-center md:text-left">
                     <h1
                         className={`
-                            font-bold text-6xl text-gray-700
-                            sm:text-green-600 md:text-blue-600 lg:text-red-600
+                            font-bold text-6xl text-amber-600
+        
                         `}
                     >
                         {title}
                     </h1>
-                    <p className="text-xl text-gray-700">{subtitle}</p>
+                    <p className="text-xl text-amber-900">{subtitle}</p>
                 </div>
             </div>
         </div>
