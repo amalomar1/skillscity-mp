@@ -19,11 +19,11 @@ export default function BookItem({ book }) {
             <Link href={`/single-book/${book.id}`} className="text-xl font-medium">
                 {book.title}
             </Link>
-            <p className="text-gray-700">{book.author}</p>
+            <p className="text-amber-100">{book.author}</p>
             <button
                 onClick={handleLike}
                 type="button"
-                className="bg-blue-500 px-2 py-1 rounded text-white"
+                className="bg-amber-100 px-2 py-1 rounded text-white"
             >
                 Like ({likes} likes)
             </button>
