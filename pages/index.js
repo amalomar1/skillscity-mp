@@ -38,10 +38,10 @@ export default function Home() {
 
          <div>
           <button
-              className="bg-amber-700 px-2 py-1 rounded"
+              className="bg-amber-700 text-white px-2 py-1 rounded"
               onClick={handleClick}
             >
-              Click me!!!
+              Click Here
             </button>
          </div>
         </div>
