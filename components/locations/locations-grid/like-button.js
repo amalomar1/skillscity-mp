@@ -8,7 +8,7 @@ export default function LikeButton() {
         <button
             onClick={handleLike}
             type="button"
-            className="bg-blue-500 px-2 py-1 rounded text-white"
+            className="bg-amber-600 px-2 py-1 rounded text-white"
         >
             Like <NumberOfLikes />
         </button>
