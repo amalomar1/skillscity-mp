@@ -25,7 +25,7 @@ export default function Home() {
       <Header name="Home" />
 
       <Hero
-        imgUrl="/assets/profile.jpg"
+        imgUrl="/assets/image.jpeg"
         title="Amal"
         subtitle="I am a software engineer student"
       />
