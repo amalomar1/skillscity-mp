@@ -49,7 +49,7 @@ export default function SingleBook() {
                     <div className="">
                         <CopyToClipboard text={book.linkToPurchase}>
                             <button
-                                className="bg-blue-500 text-white px-4 py-2 rounded-lg"
+                                className="bg-amber-600 text-white px-4 py-2 rounded-lg"
                                 type="button"
                             >
                                 Copy link to Amazon
