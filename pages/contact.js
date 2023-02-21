@@ -38,16 +38,21 @@ export default function Contact() {
     }
 
     const handleSubmit = async (event) => {
-    //     const response = await fetch(`/api/contact?name=${name}&email=${email}&message=${message}`);
-    //     const data = await response.json();
+        let payload = {
+            name: name,
+            email: email,
+            message: message
+        };
 
-    //     const response = await fetch(`/api/contact`, {
-    //     method: "POST"
-    //     headers: {
-    //         "Content-Type": "application/json"
-    //     }
-    //     body: JSON.stringify(payload)
-    // });
+        const response = await fetch(`/api/contact`, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(payload)
+        });
+
+        const data = await response.json();
 
         setName("");
         setEmail("");
@@ -74,13 +79,13 @@ export default function Contact() {
                     />
                     <textarea
                         placeholder="Message"
-                        className="bg-amber-100 py-3 px-6 w-full rounded"
+                        className="bg-gray-200 py-3 px-6 w-full rounded"
                         value={message}
                         onChange={handleChangeMessage}
                     />
 
                     <button
-                        className="bg-amber-700 py-3 px-6 w-full rounded text-white"
+                        className="bg-blue-500 py-3 px-6 w-full rounded text-white"
                         onClick={handleSubmit}
                         type="button"
                     >
@@ -88,7 +93,7 @@ export default function Contact() {
                     </button>
 
                     {showSuccess === true ? 
-                        (<p className="text-amber-600 w-full">
+                        (<p className="text-green-500 w-full">
                             Your message was sent!
                         </p>)
                         :
