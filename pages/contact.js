@@ -85,7 +85,7 @@ export default function Contact() {
                     />
 
                     <button
-                        className="bg-blue-500 py-3 px-6 w-full rounded text-white"
+                        className="bg-amber-700 py-3 px-6 w-full rounded text-white"
                         onClick={handleSubmit}
                         type="button"
                     >
@@ -93,7 +93,7 @@ export default function Contact() {
                     </button>
 
                     {showSuccess === true ? 
-                        (<p className="text-green-500 w-full">
+                        (<p className="text-amber-900 w-full">
                             Your message was sent!
                         </p>)
                         :
