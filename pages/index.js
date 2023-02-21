@@ -25,9 +25,9 @@ export default function Home() {
       <Header name="Home" />
 
       <Hero
-        imgUrl="/assets/profile.jpg"
-        title="Zahid"
-        subtitle="I am a bootcamp instructor"
+        imgUrl="/assets/image.jpeg"
+        title="Amal"
+        subtitle="I am a Software Engineer student"
       />
 
       <Content>
@@ -38,7 +38,7 @@ export default function Home() {
 
          <div className="hidden md:block">
           <button
-              className="bg-blue-500 px-2 py-1 rounded"
+              className="bg-amber-600 px-2 py-1 rounded"
               onClick={handleClick}
             >
               Click me!!!
